@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="header">
+      <div class="header-tag">Web Tool</div>
+      <h1>Temp<span>.</span><br>Converter</h1>
+      <p class="subtitle">Celsius · Fahrenheit · Kelvin</p>
+    </div>
+
+    <div class="card">
+
+      <!-- Input -->
+      <div class="input-group">
+        <label for="tempInput">Enter Temperature</label>
+        <input type="number" id="tempInput" placeholder="e.g. 100" step="any" />
+      </div>
+      <div class="error-msg" id="errorMsg"></div>
+
+      <!-- Unit selector -->
+      <span class="unit-label">Convert From</span>
+      <div class="unit-selector">
+        <input type="radio" name="unit" id="celsius" value="celsius" checked>
+        <label for="celsius">
+          <span class="unit-sym">°C</span>
+          <span class="unit-name">Celsius</span>
+        </label>
+
+        <input type="radio" name="unit" id="fahrenheit" value="fahrenheit">
+        <label for="fahrenheit">
+          <span class="unit-sym">°F</span>
+          <span class="unit-name">Fahrenheit</span>
+        </label>
+
+        <input type="radio" name="unit" id="kelvin" value="kelvin">
+        <label for="kelvin">
+          <span class="unit-sym">K</span>
+          <span class="unit-name">Kelvin</span>
+        </label>
+      </div>
+
+      <!-- Button -->
+      <button class="convert-btn" onclick="convert()">Convert Temperature</button>
+
+      <!-- Result -->
+      <div class="result-area" id="resultArea">
+        <div class="result-inner">
+          <div>
+            <div class="result-label">Converted Result</div>
+            <div class="result-value" id="resultValue">—</div>
+            <div class="result-from" id="resultFrom"></div>
+          </div>
+          <div class="result-icon" id="resultIcon">🌡️</div>
+        </div>
+      </div>
+
+      <!-- All conversions chips -->
+      <div class="all-conversions" id="allConversions">
+        <div class="conv-chip">
+          <div class="chip-unit">°C Celsius</div>
+          <div class="chip-val" id="cVal">—</div>
+        </div>
+        <div class="conv-chip">
+          <div class="chip-unit">°F Fahrenheit</div>
+          <div class="chip-val" id="fVal">—</div>
+        </div>
+        <div class="conv-chip">
+          <div class="chip-unit">K Kelvin</div>
+          <div class="chip-val" id="kVal">—</div>
+        </div>
+      </div>
+
+      <!-- Reset -->
+      <div class="reset-row" id="resetRow">
+        <button class="reset-btn" onclick="reset()">Clear &amp; Reset</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
