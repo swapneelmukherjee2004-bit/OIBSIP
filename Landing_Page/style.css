@@ -41,13 +41,13 @@
   --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-spring: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
 
-  /* Shadows */
+
   --shadow-glow: 0 0 40px rgba(168, 85, 247, 0.15);
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
   --shadow-elevated: 0 8px 40px rgba(0, 0, 0, 0.4);
 }
 
-/* ===== RESET & BASE ===== */
+
 *,
 *::before,
 *::after {
@@ -87,7 +87,7 @@ ul {
   list-style: none;
 }
 
-/* ===== UTILITY CLASSES ===== */
+
 .container {
   max-width: var(--container-max);
   margin: 0 auto;
@@ -129,7 +129,7 @@ ul {
   line-height: 1.7;
 }
 
-/* ===== BACKGROUND EFFECTS ===== */
+
 .bg-glow {
   position: fixed;
   width: 600px;
@@ -168,7 +168,7 @@ ul {
   66% { transform: translate(-20px, 40px) scale(0.95); }
 }
 
-/* ===== GRID BACKGROUND ===== */
+
 .grid-background {
   position: fixed;
   top: 0;
@@ -183,7 +183,7 @@ ul {
   z-index: 0;
 }
 
-/* ===== HEADER / NAVBAR ===== */
+
 .header {
   position: fixed;
   top: 0;
@@ -277,7 +277,7 @@ ul {
   box-shadow: 0 4px 20px rgba(168, 85, 247, 0.4);
 }
 
-/* Mobile menu toggle */
+
 .nav__toggle {
   display: none;
   flex-direction: column;
@@ -297,7 +297,7 @@ ul {
   transition: var(--transition-fast);
 }
 
-/* ===== HERO SECTION ===== */
+
 .hero {
   position: relative;
   min-height: 100vh;
@@ -455,7 +455,7 @@ ul {
   50% { transform: translateY(-16px); }
 }
 
-/* Floating elements around hero */
+
 .hero__float {
   position: absolute;
   border-radius: var(--radius-md);
@@ -510,7 +510,7 @@ ul {
   50% { transform: translateY(-10px); }
 }
 
-/* ===== STATS SECTION ===== */
+
 .stats {
   position: relative;
   z-index: 1;
@@ -556,7 +556,7 @@ ul {
   font-weight: 500;
 }
 
-/* ===== SERVICES SECTION ===== */
+
 .services {
   position: relative;
   z-index: 1;
@@ -677,7 +677,7 @@ ul {
   transition: var(--transition-fast);
 }
 
-/* ===== PORTFOLIO SECTION ===== */
+
 .portfolio {
   position: relative;
   z-index: 1;
@@ -768,7 +768,7 @@ ul {
   line-height: 1.6;
 }
 
-/* ===== ABOUT / WHY US SECTION ===== */
+
 .about {
   position: relative;
   z-index: 1;
@@ -828,7 +828,7 @@ ul {
   line-height: 1.6;
 }
 
-/* ===== TESTIMONIALS ===== */
+
 .testimonials {
   position: relative;
   z-index: 1;
@@ -901,7 +901,7 @@ ul {
   color: var(--text-muted);
 }
 
-/* ===== CTA SECTION ===== */
+
 .cta {
   position: relative;
   z-index: 1;
@@ -961,7 +961,7 @@ ul {
   position: relative;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
   position: relative;
   z-index: 1;
@@ -1063,7 +1063,7 @@ ul {
   color: var(--text-secondary);
 }
 
-/* ===== SCROLL-TO-TOP ===== */
+
 .scroll-top {
   position: fixed;
   bottom: 32px;
@@ -1091,7 +1091,7 @@ ul {
   box-shadow: 0 8px 30px rgba(168, 85, 247, 0.6);
 }
 
-/* ===== ANIMATIONS ===== */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1144,7 +1144,7 @@ ul {
 .delay-5 { animation-delay: 0.5s; }
 .delay-6 { animation-delay: 0.6s; }
 
-/* ===== RESPONSIVE DESIGN ===== */
+
 @media (max-width: 1024px) {
   .hero__inner {
     grid-template-columns: 1fr;
