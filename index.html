@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura Digital — A boutique creative agency crafting future-proof digital experiences through strategy, design, and code.">
+  <title>Aura Digital — Crafting Future-Proof Digital Experiences</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="grid-background" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--purple" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--cyan" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--pink" aria-hidden="true"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo" id="logo">
+        <span class="logo__icon">✦</span>
+        Aura Digital
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list" id="nav-list">
+          <li><a href="#about" class="nav__link" id="nav-about">About</a></li>
+          <li><a href="#services" class="nav__link" id="nav-services">Services</a></li>
+          <li><a href="#portfolio" class="nav__link" id="nav-portfolio">Portfolio</a></li>
+          <li><a href="#testimonials" class="nav__link" id="nav-testimonials">Testimonials</a></li>
+          <li><a href="#contact" class="nav__link" id="nav-contact">Contact</a></li>
+          <li><a href="#contact" class="nav__cta" id="nav-cta-btn">Start a Project</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content animate-fade-left">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Available for new projects
+        </div>
+
+        <h1 class="hero__title">
+          Crafting<br>
+          <span class="hero__title-gradient">Future-Proof</span><br>
+          Digital Experiences
+        </h1>
+
+        <p class="hero__description">
+          Aura Digital is a boutique agency driving innovation through strategy, 
+          design, and code. We build digital products that resonate, scale, 
+          and stand the test of time.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" id="hero-cta">
+            Start a Project →
+          </a>
+          <a href="#portfolio" class="btn btn--ghost" id="hero-portfolio-btn">
+            View Our Work
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual animate-fade-right">
+        <div class="hero__image-wrapper">
+          <div class="hero__image-glow" aria-hidden="true"></div>
+          <img src="images/hero-abstract.png" alt="Abstract 3D geometric shapes with glowing purple and cyan elements" width="500" height="500">
+        </div>
+
+        <!-- Floating Cards -->
+        <div class="hero__float hero__float--1">
+          <span class="hero__float-icon hero__float-icon--purple">🎨</span>
+          <div>
+            <strong>Design</strong>
+            <br><small>UI/UX Expert</small>
+          </div>
+        </div>
+
+        <div class="hero__float hero__float--2">
+          <span class="hero__float-icon hero__float-icon--cyan">⚙️</span>
+          <div>
+            <strong>Develop</strong>
+            <br><small>Full-Stack</small>
+          </div>
+        </div>
+
+        <div class="hero__float hero__float--3">
+          <span class="hero__float-icon hero__float-icon--pink">🚀</span>
+          <div>
+            <strong>Deploy</strong>
+            <br><small>Cloud Native</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS SECTION ===== -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat-card animate-fade-up delay-1" id="stat-projects">
+          <div class="stat-card__number">150+</div>
+          <div class="stat-card__label">Projects Completed</div>
+        </div>
+        <div class="stat-card animate-fade-up delay-2" id="stat-satisfaction">
+          <div class="stat-card__number">98%</div>
+          <div class="stat-card__label">Client Satisfaction</div>
+        </div>
+        <div class="stat-card animate-fade-up delay-3" id="stat-team">
+          <div class="stat-card__number">25+</div>
+          <div class="stat-card__label">Team Experts</div>
+        </div>
+        <div class="stat-card animate-fade-up delay-4" id="stat-awards">
+          <div class="stat-card__number">12+</div>
+          <div class="stat-card__label">Industry Awards</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Services That Drive Results</h2>
+        <p class="section-subtitle">
+          We offer a comprehensive suite of digital services designed to elevate 
+          your brand and accelerate growth.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card animate-fade-up delay-1" id="service-web-design">
+          <div class="service-card__icon service-card__icon--purple">🌐</div>
+          <h3 class="service-card__title">Web Design</h3>
+          <p class="service-card__desc">
+            Responsive, user-centric web platforms that captivate audiences and 
+            convert visitors into loyal customers.
+          </p>
+          <a href="#" class="service-card__link">
+            Learn more <span class="service-card__link-arrow">→</span>
+          </a>
+        </article>
+
+        <article class="service-card animate-fade-up delay-2" id="service-app-dev">
+          <div class="service-card__icon service-card__icon--cyan">📱</div>
+          <h3 class="service-card__title">App Development</h3>
+          <p class="service-card__desc">
+            Intuitive iOS & Android solutions built with cutting-edge technology 
+            for seamless user experiences.
+          </p>
+          <a href="#" class="service-card__link">
+            Learn more <span class="service-card__link-arrow">→</span>
+          </a>
+        </article>
+
+        <article class="service-card animate-fade-up delay-3" id="service-branding">
+          <div class="service-card__icon service-card__icon--pink">✨</div>
+          <h3 class="service-card__title">Brand Identity</h3>
+          <p class="service-card__desc">
+            Impactful branding that resonates and lasts. From logos to complete 
+            visual identity systems.
+          </p>
+          <a href="#" class="service-card__link">
+            Learn more <span class="service-card__link-arrow">→</span>
+          </a>
+        </article>
+
+        <article class="service-card animate-fade-up delay-4" id="service-uiux">
+          <div class="service-card__icon service-card__icon--violet">🎯</div>
+          <h3 class="service-card__title">UI/UX Design</h3>
+          <p class="service-card__desc">
+            Research-driven interfaces that delight users and achieve business 
+            goals through thoughtful design.
+          </p>
+          <a href="#" class="service-card__link">
+            Learn more <span class="service-card__link-arrow">→</span>
+          </a>
+        </article>
+
+        <article class="service-card animate-fade-up delay-5" id="service-seo">
+          <div class="service-card__icon service-card__icon--green">📊</div>
+          <h3 class="service-card__title">SEO & Analytics</h3>
+          <p class="service-card__desc">
+            Data-driven strategies to boost visibility, rank higher, and measure 
+            what matters for growth.
+          </p>
+          <a href="#" class="service-card__link">
+            Learn more <span class="service-card__link-arrow">→</span>
+          </a>
+        </article>
+
+        <article class="service-card animate-fade-up delay-6" id="service-cloud">
+          <div class="service-card__icon service-card__icon--orange">☁️</div>
+          <h3 class="service-card__title">Cloud Solutions</h3>
+          <p class="service-card__desc">
+            Scalable cloud infrastructure and DevOps to ensure your products 
+            are fast, secure, and reliable.
+          </p>
+          <a href="#" class="service-card__link">
+            Learn more <span class="service-card__link-arrow">→</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO SECTION ===== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Recent Impact</h2>
+        <p class="section-subtitle">
+          Explore a selection of our latest projects that showcase our commitment 
+          to excellence and innovation.
+        </p>
+      </div>
+
+      <div class="portfolio__grid">
+        <article class="portfolio-card animate-fade-up delay-1" id="portfolio-lumina">
+          <div class="portfolio-card__image">
+            <img src="images/portfolio-web.png" alt="Lumina Collective e-commerce website displayed on a laptop" width="600" height="400">
+          </div>
+          <div class="portfolio-card__content">
+            <span class="portfolio-card__tag portfolio-card__tag--web">Web Design</span>
+            <h3 class="portfolio-card__title">Lumina Collective</h3>
+            <p class="portfolio-card__desc">
+              A premium e-commerce platform featuring minimalist design and seamless checkout experience.
+            </p>
+          </div>
+        </article>
+
+        <article class="portfolio-card animate-fade-up delay-2" id="portfolio-fitsphere">
+          <div class="portfolio-card__image">
+            <img src="images/portfolio-app.png" alt="FitSphere health and fitness mobile app on iPhones" width="600" height="400">
+          </div>
+          <div class="portfolio-card__content">
+            <span class="portfolio-card__tag portfolio-card__tag--app">App Development</span>
+            <h3 class="portfolio-card__title">FitSphere</h3>
+            <p class="portfolio-card__desc">
+              A comprehensive health & fitness app with real-time analytics and personalized coaching.
+            </p>
+          </div>
+        </article>
+
+        <article class="portfolio-card animate-fade-up delay-3" id="portfolio-nordica">
+          <div class="portfolio-card__image">
+            <img src="images/portfolio-brand.png" alt="Nordica Objects brand identity mockup with business cards" width="600" height="400">
+          </div>
+          <div class="portfolio-card__content">
+            <span class="portfolio-card__tag portfolio-card__tag--brand">Brand Identity</span>
+            <h3 class="portfolio-card__title">Nordica Objects</h3>
+            <p class="portfolio-card__desc">
+              A complete brand identity system for a luxury lifestyle brand launching in London.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / WHY US SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="animate-fade-left">
+          <span class="section-label">Why Choose Us</span>
+          <h2 class="section-title" style="text-align: left;">We Don't Just Build.<br>We <span class="hero__title-gradient">Craft</span>.</h2>
+          <p class="section-subtitle" style="text-align: left; margin: 0; margin-bottom: 16px;">
+            Every pixel, every line of code, every strategic decision is made with 
+            one goal — to create digital experiences that feel alive and drive 
+            measurable results.
+          </p>
+        </div>
+
+        <div class="about__features animate-fade-right">
+          <div class="feature-item" id="feature-strategy">
+            <div class="feature-item__icon">🧭</div>
+            <div>
+              <h3 class="feature-item__title">Strategy First</h3>
+              <p class="feature-item__desc">
+                We start with deep research to understand your audience, goals, 
+                and competitive landscape before writing a single line of code.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item" id="feature-pixel-perfect">
+            <div class="feature-item__icon">🎨</div>
+            <div>
+              <h3 class="feature-item__title">Pixel-Perfect Design</h3>
+              <p class="feature-item__desc">
+                Obsessive attention to detail ensures every element is precisely 
+                placed for maximum visual impact and usability.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item" id="feature-performance">
+            <div class="feature-item__icon">⚡</div>
+            <div>
+              <h3 class="feature-item__title">Built for Performance</h3>
+              <p class="feature-item__desc">
+                Lightning-fast load times, SEO-optimized architecture, and 
+                scalable infrastructure that grows with you.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-item" id="feature-support">
+            <div class="feature-item__icon">🤝</div>
+            <div>
+              <h3 class="feature-item__title">Ongoing Partnership</h3>
+              <p class="feature-item__desc">
+                We're not just vendors — we're partners. Continuous support, 
+                iteration, and optimization long after launch.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Client Love</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-subtitle">
+          Don't just take our word for it — hear from the teams that trust us 
+          to bring their vision to life.
+        </p>
+      </div>
+
+      <div class="testimonials__grid">
+        <article class="testimonial-card animate-fade-up delay-1" id="testimonial-1">
+          <div class="testimonial-card__stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-card__text">
+            "Aura Digital transformed our entire online presence. The website they 
+            delivered exceeded every expectation — both in design and performance. 
+            Our conversions doubled in the first quarter."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SC</div>
+            <div>
+              <div class="testimonial-card__name">Sarah Chen</div>
+              <div class="testimonial-card__role">CEO, Lumina Collective</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card animate-fade-up delay-2" id="testimonial-2">
+          <div class="testimonial-card__stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-card__text">
+            "Working with Aura was a game-changer. They deeply understood our users 
+            and delivered an app that's not just beautiful but genuinely useful. 
+            Our user retention went up 40%."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AR</div>
+            <div>
+              <div class="testimonial-card__name">Alex Rivera</div>
+              <div class="testimonial-card__role">CTO, FitSphere</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card animate-fade-up delay-3" id="testimonial-3">
+          <div class="testimonial-card__stars">★ ★ ★ ★ ★</div>
+          <p class="testimonial-card__text">
+            "The brand identity Aura created for us is absolutely stunning. It 
+            perfectly captures who we are and has set us apart in a crowded market. 
+            Couldn't be happier with the results."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">IL</div>
+            <div>
+              <div class="testimonial-card__name">Isabelle Laurent</div>
+              <div class="testimonial-card__role">Founder, Nordica Objects</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta" id="contact">
+    <div class="container">
+      <div class="cta__inner">
+        <h2 class="cta__title">
+          Ready to Build Something <span class="hero__title-gradient">Extraordinary</span>?
+        </h2>
+        <p class="cta__desc">
+          Let's turn your vision into a digital experience that sets you apart. 
+          Get in touch and let's start the conversation.
+        </p>
+        <div class="cta__actions">
+          <a href="mailto:hello@auradigital.co" class="btn btn--primary" id="cta-email">
+            Get in Touch →
+          </a>
+          <a href="#portfolio" class="btn btn--ghost" id="cta-portfolio">
+            View Case Studies
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="logo" id="footer-logo">
+            <span class="logo__icon">✦</span>
+            Aura Digital
+          </a>
+          <p class="footer__brand-desc">
+            A boutique creative agency crafting future-proof digital experiences 
+            through strategy, design, and code.
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link" id="social-linkedin" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer__social-link" id="social-dribbble" aria-label="Dribbble">◎</a>
+            <a href="#" class="footer__social-link" id="social-twitter" aria-label="Twitter">𝕏</a>
+            <a href="#" class="footer__social-link" id="social-github" aria-label="GitHub">⌘</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Company</h4>
+          <ul class="footer__links">
+            <li><a href="#about" class="footer__link" id="footer-about">About Us</a></li>
+            <li><a href="#services" class="footer__link" id="footer-services">Services</a></li>
+            <li><a href="#portfolio" class="footer__link" id="footer-portfolio">Portfolio</a></li>
+            <li><a href="#" class="footer__link" id="footer-careers">Careers</a></li>
+            <li><a href="#contact" class="footer__link" id="footer-contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Web Design</a></li>
+            <li><a href="#" class="footer__link">App Development</a></li>
+            <li><a href="#" class="footer__link">Brand Identity</a></li>
+            <li><a href="#" class="footer__link">UI/UX Design</a></li>
+            <li><a href="#" class="footer__link">Cloud Solutions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Get in Touch</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:hello@auradigital.co" class="footer__link">hello@auradigital.co</a></li>
+            <li><a href="tel:+14155551234" class="footer__link">+1 (415) 555-1234</a></li>
+            <li><span class="footer__link" style="cursor: default;">San Francisco, CA</span></li>
+            <li><span class="footer__link" style="cursor: default;">Mon – Fri, 9am – 6pm</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Aura Digital. All Rights Reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link">Privacy Policy</a>
+          <a href="#" class="footer__bottom-link">Terms of Service</a>
+          <a href="#" class="footer__bottom-link">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <a href="#hero" class="scroll-top" id="scroll-top" aria-label="Scroll to top">↑</a>
+
+</body>
+</html>
